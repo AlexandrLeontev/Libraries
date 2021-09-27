@@ -14,7 +14,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="20dp"
-        android:textSize="20sp"
+        android:textSize="@dimen/user_login_size"
+        android:textColor="@color/black"
         tools:text="UserLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

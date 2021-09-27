@@ -1,15 +1,17 @@
 package com.example.android.popularlibraries.model
 
+import io.reactivex.rxjava3.core.Single
+
 class GithubUsersRepo {
     private val repositories = listOf(
-        GithubUser("login1"),
-        GithubUser("login2"),
-        GithubUser("login3"),
-        GithubUser("login4"),
-        GithubUser("login5")
+        GithubUser("User 1"),
+        GithubUser("User 2"),
+        GithubUser("User 3"),
+        GithubUser("User 4"),
+        GithubUser("User 5")
     )
 
-    fun getUsers(): List<GithubUser> {
-        return repositories
+    fun getUsers(): Single<List<GithubUser>> {
+        return Single.just(repositories)
     }
 }
