@@ -11,7 +11,9 @@ class GithubUsersRepo {
         GithubUser("User 5")
     )
 
-    fun getUsers(): Single<List<GithubUser>> {
-        return Single.just(repositories)
+//    fun getUsers(): Single<List<GithubUser>> {
+//        return Single.just(repositories)
+fun getUsers(): Single<List<GithubUser>> {
+    return Single.just(repositories)
     }
 }
