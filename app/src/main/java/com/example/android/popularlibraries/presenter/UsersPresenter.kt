@@ -41,14 +41,13 @@ class UsersPresenter(
     }
 
     private fun loadData() {
-//        usersRepo.getUsers().subscribe { users -> usersListPresenter.users.addAll(users) }
         compositeDisposable.add(
             usersRepo.getUsers()
                 .subscribe { users ->
                     usersListPresenter.users.addAll(users)
+                    viewState.updateList()
                 }
         )
-        viewState.updateList()
     }
 
     fun backPressed(): Boolean {
