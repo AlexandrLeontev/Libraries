@@ -15,7 +15,7 @@
         android:theme="@style/Theme.PopularLibraries">
         <activity
             android:name=".view.MainActivity"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
