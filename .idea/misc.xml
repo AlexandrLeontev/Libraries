@@ -10,12 +10,16 @@
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/fragment_user.xml" value="0.1" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/fragment_users.xml" value="0.25" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/item_user.xml" value="0.1" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_item_user.xml" value="0.1" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_item_user_repo.xml" value="0.1" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_user.xml" value="0.18" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_user_repo_detail.xml" value="0.1" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_user_repo_item.xml" value="0.1" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_user_repo_list.xml" value="0.1" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_users.xml" value="0.1" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/xml/provider_paths.xml" value="0.12952898550724637" />
       </map>
     </option>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/android/popularlibraries/ConverterActivity.kt" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
