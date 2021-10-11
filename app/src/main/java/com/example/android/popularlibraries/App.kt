@@ -1,31 +1,23 @@
 package com.example.android.popularlibraries
 
-import android.annotation.SuppressLint
-import android.app.Application
-import android.content.Context
+import com.example.android.popularlibraries.helpers.di.DaggerAppComponent
+import com.example.android.popularlibraries.helpers.schedules.AppSchedulersImpl
 import com.github.terrakok.cicerone.Cicerone
-import com.github.terrakok.cicerone.Router
-import io.reactivex.plugins.RxJavaPlugins
+import dagger.android.AndroidInjector
+import dagger.android.DaggerApplication
 
-class App : Application() {
+class App : DaggerApplication() {
 
-    @SuppressLint("StaticFieldLeak")
-    object ContextHolder {
-        lateinit var context: Context
-    }
+    override fun applicationInjector(): AndroidInjector<App> =
+        DaggerAppComponent
+            .builder()
+            .apply {
+                withContext(applicationContext)
 
-    companion object Navigation {
-        private val cicerone: Cicerone<Router> by lazy {
-            Cicerone.create()
-        }
-        val navigatorHolder get() = cicerone.getNavigatorHolder()
-        val router get() = cicerone.router
-    }
-
-    override fun onCreate() {
-        super.onCreate()
-        ContextHolder.context = applicationContext
-        RxJavaPlugins.setErrorHandler { }
-    }
-
+                val cicerone = Cicerone.create()
+                withNavigationHolder(cicerone.getNavigatorHolder())
+                withRouter(cicerone.router)
+                withAppScheduler(AppSchedulersImpl())
+            }
+            .build()
 }
