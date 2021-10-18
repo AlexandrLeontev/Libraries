@@ -1,6 +1,6 @@
 package com.example.android.popularlibraries
 
-import com.example.android.popularlibraries.helpers.di.DaggerAppComponent
+import com.example.android.popularlibraries.di.DaggerAppComponent
 import com.example.android.popularlibraries.helpers.schedules.AppSchedulersImpl
 import com.github.terrakok.cicerone.Cicerone
 import dagger.android.AndroidInjector

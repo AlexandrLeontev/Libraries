@@ -4,12 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/IT/Git/Libs/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/drawable/icon_setting.xml" value="0.2037037037037037" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/drawable/icon_update.xml" value="0.2037037037037037" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/dimens.xml" value="0.1213768115942029" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/fragment_converter.xml" value="0.33" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/fragment_user.xml" value="0.1" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/fragment_users.xml" value="0.25" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/item_user.xml" value="0.1" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/main_activity.xml" value="0.1358695652173913" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/quote_fragment.xml" value="0.1358695652173913" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/quote_history_item.xml" value="0.1358695652173913" />
+        <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/quotes_history_fragment.xml" value="0.1358695652173913" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_item_user.xml" value="0.1" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_item_user_repo.xml" value="0.1" />
         <entry key="..\:/IT/Git/Libs/app/src/main/res/layout/view_user.xml" value="0.18" />
